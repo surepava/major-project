@@ -3,7 +3,7 @@ import joblib
 
 app = Flask(__name__)
 
-model = joblib.load('C:\\Users\\Sure Pavan\\Desktop\\sp2\\youtube-spam\\youtube-spam\\model2.pkl')
+model = joblib.load('./model2.pkl')
 
 @app.route('/')
 def home():
